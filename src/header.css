@@ -1,0 +1,148 @@
+    header{
+        overflow: hidden;
+    }
+ 
+    .container-on-top{
+        padding:1rem 1rem 0 1rem; 
+        align-items: center; 
+        justify-content:space-between;
+        display: flex;
+        width:auto
+    }
+    .logo-top{
+        color: hsla(234, 53%, 16%, 1);
+        font-family: Plus Jakarta Sans;
+        font-size: 1.75rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+}
+    .btn-top{
+        padding: 0.563rem 1.5rem 0.688rem 1.5rem;
+        font-size: 1rem;
+        color: hsla(0, 0%, 100%, 1); 
+        text-decoration: none;
+        border-radius: 1.75rem;
+        background-color: hsla(234, 53%, 16%, 1);
+}
+    h1{ 
+        color: hsla(234, 53%, 16%, 1);
+        font-family: Plus Jakarta Sans;
+        font-size: 2.5rem;
+        font-weight: 800;
+        line-height: normal;
+     }
+    .our-modern{
+        width: 21.4375rem;
+        color: hsla(233, 10%, 56%, 1); 
+        font-size: 1rem; 
+        font-family: Plus Jakarta Sans; 
+        font-weight: 500; 
+        line-height: 1.625rem;
+    }
+
+    .btn-middle{
+        margin-right:11rem;
+        padding: 1rem 2rem 1rem 2rem;
+        font-size: 1rem;
+        line-height: 1.625rem; 
+        font-weight: 700;
+        text-decoration: none;
+        color: hsla(0, 0%, 100%, 1); 
+        background: linear-gradient(to top, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 1.969rem; 
+    }
+
+    .content{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 2.38rem;
+        gap:1.5rem;
+        display: grid;
+        width: min-content;
+        
+    }
+    .img-hero{
+        margin-left:-2rem;
+        content:url(/assets/image-hero-mobile.png)
+    }
+    .btn-top:hover {
+        background-color: hsla(234, 25%, 52%, 1);;
+        }
+@media screen and (min-width: 48rem){
+    .container-on-top{
+        margin-top: 1.5rem;
+        padding:0;
+        margin-right: 2.5rem;
+        margin-left: 2.438rem;
+    }
+  
+    .our-modern{
+        line-height: 1.625rem; 
+    }
+    .content{
+        display: flex;
+        margin-right: 20.7rem;
+        margin-top:6.19rem; 
+        margin-left: 2.4rem; 
+        flex-direction: column;
+        justify-content: center;
+        width: min-content;
+        gap: 1.5625rem;
+       
+    }
+    h1{
+        margin: 0;
+    }
+    .img-top{
+        margin-top: -34rem;
+        margin-left: 23rem;
+        overflow: hidden;
+         height: auto;
+        content:url(../assets/image-hero-tablet.png);
+          }
+
+}
+
+
+@media screen and (min-width: 90rem)  {
+    .container-on-top{
+        margin-top: 1.5rem;
+        padding:0;
+        margin-right: 10.35rem;
+        margin-left: 10.36rem;
+    }
+  
+    .our-modern{
+     width: fit-content;
+     font-size: 1.125rem;
+     line-height: 1.75rem; 
+    }
+
+    .content{
+        display: grid;
+        margin-right: 0rem;
+        margin-top:15.8rem; 
+        margin-left: 10.36rem;
+        grid-template-columns: repeat(auto-fill, minmax(29rem, 1fr));
+    }
+
+    h1{
+        font-size: 3.5rem;
+        margin: 0;
+    }
+  
+
+    .btn-middle{
+        width: max-content;
+    }
+    
+    .img-top{
+
+        margin-top: -50.13rem;
+        margin-left: 45.42rem;
+     width: 70%;
+    
+        content:url(../assets/image-hero-tablet.png);
+          }
+}
